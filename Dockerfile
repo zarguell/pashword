@@ -4,7 +4,7 @@ FROM node:18.7.0-slim
 
 RUN mkdir -p /opt/app
 WORKDIR /opt/app
-RUN adduser -S app
+RUN adduser --system --group app
 
 # install dependencies
 COPY package.json ./

@@ -1,3 +1,5 @@
+[![ci](https://github.com/zarguell/pashword/actions/workflows/docker-image.yml/badge.svg)](https://github.com/zarguell/pashword/actions/workflows/docker-image.yml)
+
 <div align="center">
 
 # Pashword 🔒

@@ -13,7 +13,7 @@ COPY . /opt/app
 RUN chown -R app /opt/app
 
 # Install dependencies
-npm install
+RUN npm install
 
 USER app
 EXPOSE 3000
